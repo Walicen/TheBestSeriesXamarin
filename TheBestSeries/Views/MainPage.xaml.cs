@@ -23,11 +23,6 @@ namespace TheBestSeries.Views
         }
 
 
-        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
-        {
-            var filme = (Series)e.Item;
-            Navigation.PushAsync(new DetailsView(filme));
 
-        }
     }
 }

@@ -2,15 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TheBestSeries"
-             xmlns:vm="clr-namespace:TheBestSeries.ViewModels"
              x:Class="TheBestSeries.Views.MainPage"
              Title="The Best Series">
-    <ContentPage.BindingContext>
-        <vm:ListViewModel></vm:ListViewModel>
-    </ContentPage.BindingContext>
+    
     
     <StackLayout Padding="5">
-        <ListView x:Name="listViewSeries" ItemsSource="{Binding Series}" ItemTapped="Handle_ItemTapped">
+        <ListView x:Name="listViewSeries" ItemsSource="{Binding Series}" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

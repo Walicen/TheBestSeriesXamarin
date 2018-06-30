@@ -9,7 +9,7 @@ namespace TheBestSeries.Infrastructure.Api
     [Headers("Content-Type: application/json")]
     public interface ITMDbApi
     {
-        [Get("?api_key=")]
-        Task<IEnumerable<Series>> GetSeriesAsync([Header("user-key")] string authorization);
+        [Get("/tv/popular?api_key={apiKey}")]
+        Task<SerieResponse> GetSeriesAsync(string apiKey);
     }
 }

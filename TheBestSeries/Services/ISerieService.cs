@@ -5,8 +5,8 @@ using TheBestSeries.Models;
 
 namespace TheBestSeries.Services
 {
-    public interface ITMDbService
+    public interface ISerieService
     {
-        Task<IEnumerable<Series>> GetSeriesAsync();
+        Task<SerieResponse> GetSeriesAsync();
     }
 }

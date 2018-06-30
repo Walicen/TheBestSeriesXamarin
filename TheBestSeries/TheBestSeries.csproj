@@ -19,8 +19,10 @@
     <Folder Include="Services\Dialog\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Api\" />
+    <Folder Include="Infrastructure\HttpTools\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\DetaisView.cs" />
+    <Compile Remove="Models\Series.cs" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Net.Http;
 using Autofac;
 using Refit;
+using TheBestSeries.Infrastructure.Api;
+using TheBestSeries.Infrastructure.HttpTools;
 using TheBestSeries.Services;
 using TheBestSeries.Services.Navigation;
 
@@ -28,20 +31,22 @@ namespace TheBestSeries.ViewModels.Base
             _containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
             //_containerBuilder.RegisterType<DialogService>().As<IDialogService>();
             //_containerBuilder.RegisterType<ITMDbService>().As<TMDbService>();
+            _containerBuilder.RegisterType<SerieService>().As<ISerieService>();
+            _containerBuilder.RegisterType<ITMDbApi>();
 
             _containerBuilder.RegisterType<ListViewModel>();
             _containerBuilder.RegisterType<DetailsViewModel>();
 
-            //_containerBuilder.Register(api =>
-            //{
-            //    var client = new HttpClient(new HttpLoggingHandler())
-            //    {
-            //        BaseAddress = new Uri(AppSettings.ApiUrl),
-            //        Timeout = TimeSpan.FromSeconds(60)
-            //    };
+            _containerBuilder.Register(api =>
+            {
+                var client = new HttpClient(new HttpLoggingHandler())
+                {
+                    BaseAddress = new Uri(ApiSettings.ApiUrl),
+                    Timeout = TimeSpan.FromSeconds(60)
+                };
 
-            //    return RestService.For<IGameDbApi>(client);
-            //}).As<IGameDbApi>().InstancePerDependency();
+                return RestService.For<ITMDbApi>(client);
+            }).As<ITMDbApi>().InstancePerDependency();
         }
 
         public T Resolve<T>() => _container.Resolve<T>();
