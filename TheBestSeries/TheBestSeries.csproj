@@ -20,6 +20,7 @@
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Api\" />
     <Folder Include="Infrastructure\HttpTools\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\DetaisView.cs" />

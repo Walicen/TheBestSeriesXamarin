@@ -31,6 +31,12 @@ namespace TheBestSeries.Models
         public string PosterPath { get; set; }
 
         [JsonIgnore]
+        public string Poster
+        {
+            get{ return $"{ApiSettings.ApiImageBaseUrl}{PosterPath}"; }
+        }
+
+        [JsonIgnore]
         public string ReleaseDate{
             get{
                 return $"{FirstAirDate:dd/MM/yyyy}";

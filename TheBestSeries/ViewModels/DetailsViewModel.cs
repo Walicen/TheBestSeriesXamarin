@@ -54,7 +54,7 @@ namespace TheBestSeries.ViewModels
 
             Name = serie.Name;
             Votes = serie.VoteAverage;
-            Backdrop = serie.BackdropPath;
+            Backdrop = serie.Poster;
             Overview = serie.Overview;
             FirstDate = serie.ReleaseDate;
 

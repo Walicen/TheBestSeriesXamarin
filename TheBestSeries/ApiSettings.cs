@@ -6,7 +6,7 @@ namespace TheBestSeries
         public const string ApiUrl = "https://api.themoviedb.org/3";
         //https://api-endpoint.igdb.com
         //https://api.themoviedb.org/3/tv/popular
-        public const string ApiKey = "e0f975bc09eaf8c1aa2b00a9acd7576c";
+        public const string ApiKey = "9ac4466dcf069ac63db44c560c9e8731";
         public const string ApiImageBaseUrl = "https://image.tmdb.org/t/p/w500/";
     }
 }
