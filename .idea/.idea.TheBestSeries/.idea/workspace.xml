@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d112619a-0b38-415e-ba1e-77a3a3d8b65c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Assets/AboutAssets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/MainActivity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Properties/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/AboutResources.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/Resource.designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/layout/Tabbar.axml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/layout/Toolbar.axml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-anydpi-v26/icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-anydpi-v26/icon_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-hdpi/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-hdpi/launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-mdpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-mdpi/launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xhdpi/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xhdpi/launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xxhdpi/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xxhdpi/launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xxxhdpi/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/mipmap-xxxhdpi/launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/Resources/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.Android/TheBestSeries.Android.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/AppDelegate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Assets.xcassets/AppIcon.appiconset/Icon87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Entitlements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/Default-568h@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/Default-Portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/Default-Portrait@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/Default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/Default@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/Resources/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.iOS/TheBestSeries.iOS.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Models/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/TheBestSeries.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Views/DetaisView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TheBestSeries" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainPage.xaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <marker date="1530291616812" expanded="true" signature="39:2125" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;        &lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;StackLayout Padding=&quot;5&quot;&gt;&#10;        &lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="379:487" ph="&lt;&lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="497:2110" ph="&lt;&lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="531:2091" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="640:2071" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="680:2034" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="715:2002" ph="&lt;&lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="750:1970" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt; &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="847:1126" ph="&lt;&lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="904:973" ph="&lt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="1006:1072" ph="&lt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="1155:1327" ph="&lt;&lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="1209:1276" ph="&lt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="1356:1683" ph="&lt;.../&gt;" />
+                <marker date="1530291616812" expanded="true" signature="1712:1934" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailsView.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <marker date="1529971184470" expanded="false" signature="6:96" ph="..." />
+                <marker date="1529971184470" expanded="true" signature="127:810" ph="{...}" />
+                <marker date="1529971184470" expanded="true" signature="180:808" ph="{...}" />
+                <marker date="1529971184470" expanded="true" signature="280:634" ph="{...}" />
+                <marker date="1529971184470" expanded="true" signature="306:367" ph="{...}" />
+                <marker date="1529971184470" expanded="true" signature="384:624" ph="{...}" />
+                <marker date="1529971184470" expanded="true" signature="675:802" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailsView.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <marker date="1530308184077" expanded="true" signature="39:822" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &#10;        &lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;&#10;         &#10;   &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1530308184077" expanded="true" signature="268:807" ph="&lt;&lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1530308184077" expanded="true" signature="307:771" ph="&lt;&lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt; &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;.../&gt;" />
+                <marker date="1530308184077" expanded="true" signature="383:622" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1530058308181" expanded="false" signature="6:75" ph="..." />
+                <marker date="1530058308181" expanded="true" signature="111:310" ph="{...}" />
+                <marker date="1530058308181" expanded="true" signature="144:308" ph="{...}" />
+                <marker date="1530058308181" expanded="true" signature="230:300" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListMovie.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <marker date="1530304033686" expanded="false" signature="6:47" ph="..." />
+                <marker date="1530304033686" expanded="true" signature="79:4826" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="108:4824" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="189:4818" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="254:4807" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="298:1245" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="1290:2229" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="2273:3463" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="3507:3871" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="3915:4408" ph="{...}" />
+                <marker date="1530304033686" expanded="true" signature="4452:4792" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movie.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/Movie.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <marker date="1530291009423" expanded="true" signature="44:250" ph="{...}" />
+                <marker date="1530291009423" expanded="true" signature="69:248" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/Models/Movie.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TheBestSeries/Models/Movie.cs" />
+        <option value="$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs" />
+        <option value="$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheBestSeries (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheBestSeries (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBestSeries" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheBestSeries (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBestSeries" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheBestSeries (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBestSeries" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ViewModels" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheBestSeries (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheBestSeries" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.iOS.iOS Default">
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TheBestSeries.Android/TheBestSeries.Android.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="" />
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TheBestSeries.iOS/TheBestSeries.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+    </configuration>
+    <list>
+      <item itemvalue="Xamarin.Android.Android Default" />
+      <item itemvalue="Xamarin.iOS.iOS Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d112619a-0b38-415e-ba1e-77a3a3d8b65c" name="Default" comment="" />
+      <created>1530232739933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530232739933</updated>
+      <workItem from="1530232745776" duration="2351000" />
+      <workItem from="1530289932621" duration="3413000" />
+      <workItem from="1530307724861" duration="940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6704000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="778" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29368576" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3181818" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32892805" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32892805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.23990306" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32892805" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
+      <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.23667206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007342" side_tool="true" weight="0.23667206" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32892805" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29368576" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007342" side_tool="true" weight="0.23667206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992658" visible="true" weight="0.23667206" />
+      <window_info id="Structure" order="1" sideWeight="0.5007342" side_tool="true" weight="0.23667206" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3181818" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32939634" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <marker date="1530291616812" expanded="true" signature="39:2125" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;        &lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;StackLayout Padding=&quot;5&quot;&gt;&#10;        &lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="379:487" ph="&lt;&lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="497:2110" ph="&lt;&lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="531:2091" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="640:2071" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="680:2034" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="715:2002" ph="&lt;&lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="750:1970" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt; &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="847:1126" ph="&lt;&lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="904:973" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1006:1072" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1155:1327" ph="&lt;&lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1209:1276" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1356:1683" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1712:1934" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1529971184470" expanded="false" signature="6:96" ph="..." />
+            <marker date="1529971184470" expanded="true" signature="127:810" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="180:808" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="280:634" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="306:367" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="384:624" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="675:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1530058308181" expanded="false" signature="6:75" ph="..." />
+            <marker date="1530058308181" expanded="true" signature="111:310" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="144:308" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="230:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <marker date="1530304033686" expanded="false" signature="6:47" ph="..." />
+            <marker date="1530304033686" expanded="true" signature="79:4826" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="108:4824" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="189:4818" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="254:4807" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="298:1245" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="1290:2229" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="2273:3463" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="3507:3871" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="3915:4408" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="4452:4792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1530291009423" expanded="true" signature="44:250" ph="{...}" />
+            <marker date="1530291009423" expanded="true" signature="69:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <marker date="1530308184077" expanded="true" signature="39:822" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &#10;        &lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;&#10;         &#10;   &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="268:807" ph="&lt;&lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="307:771" ph="&lt;&lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt; &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="383:622" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <marker date="1530291616812" expanded="true" signature="39:2125" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;        &lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;StackLayout Padding=&quot;5&quot;&gt;&#10;        &lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="379:487" ph="&lt;&lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="497:2110" ph="&lt;&lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="531:2091" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="640:2071" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="680:2034" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="715:2002" ph="&lt;&lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="750:1970" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt; &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="847:1126" ph="&lt;&lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="904:973" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1006:1072" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1155:1327" ph="&lt;&lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1209:1276" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1356:1683" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1712:1934" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1530058308181" expanded="false" signature="6:75" ph="..." />
+            <marker date="1530058308181" expanded="true" signature="111:310" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="144:308" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="230:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1530291009423" expanded="true" signature="44:250" ph="{...}" />
+            <marker date="1530291009423" expanded="true" signature="69:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/ViewModels/ListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1530058308181" expanded="false" signature="6:75" ph="..." />
+            <marker date="1530058308181" expanded="true" signature="111:310" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="144:308" ph="{...}" />
+            <marker date="1530058308181" expanded="true" signature="230:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <marker date="1530308184077" expanded="true" signature="39:822" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &#10;        &lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;&#10;         &#10;   &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="268:807" ph="&lt;&lt;StackLayout Padding=&quot;25&quot; BackgroundColor=&quot;Black&quot;&gt;&#10;            &#10;            &lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt;&#10;            &#10;                &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;&#10;            &#10;            &#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="307:771" ph="&lt;&lt;Image&#10;                Grid.Column=&quot;0&quot;&#10;                Grid.Row=&quot;0&quot;&#10;                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                HeightRequest=&quot;200&quot;&#10;                WidthRequest=&quot;200&quot;&#10;                Source=&quot;{ Binding Filme.Image}&quot; /&gt; &lt;Label Text=&quot;{Binding Filme.Sinopse}&quot; TextColor=&quot;White&quot; Height=&quot;200&quot;/&gt;.../&gt;" />
+            <marker date="1530308184077" expanded="true" signature="383:622" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1530291009423" expanded="true" signature="44:250" ph="{...}" />
+            <marker date="1530291009423" expanded="true" signature="69:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Models/ListMovie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <marker date="1530304033686" expanded="false" signature="6:47" ph="..." />
+            <marker date="1530304033686" expanded="true" signature="79:4826" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="108:4824" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="189:4818" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="254:4807" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="298:1245" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="1290:2229" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="2273:3463" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="3507:3871" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="3915:4408" ph="{...}" />
+            <marker date="1530304033686" expanded="true" signature="4452:4792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/DetailsView.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1529971184470" expanded="false" signature="6:96" ph="..." />
+            <marker date="1529971184470" expanded="true" signature="127:810" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="180:808" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="280:634" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="306:367" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="384:624" ph="{...}" />
+            <marker date="1529971184470" expanded="true" signature="675:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheBestSeries/Views/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <marker date="1530291616812" expanded="true" signature="39:2125" ph="&lt;&lt;ContentPage.BindingContext&gt;&#10;        &lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;StackLayout Padding=&quot;5&quot;&gt;&#10;        &lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="379:487" ph="&lt;&lt;vm:ListViewModel&gt;&lt;/vm:ListViewModel&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="497:2110" ph="&lt;&lt;ListView x:Name=&quot;listViewSeries&quot; ItemsSource=&quot;{Binding Series}&quot; ItemTapped=&quot;Handle_ItemTapped&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="531:2091" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="640:2071" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="680:2034" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="715:2002" ph="&lt;&lt;Grid&#10;                            HorizontalOptions=&quot;FillAndExpand&quot;&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt;&#10;                            &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;&#10;                            &lt;/Grid&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="750:1970" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt;&#10;                                &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Image&#10;                                Grid.Column=&quot;0&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                HeightRequest=&quot;40&quot;&#10;                                WidthRequest=&quot;40&quot;&#10;                                Source=&quot;{ Binding Image}&quot; /&gt; &lt;Label&#10;                                Grid.Column=&quot;1&quot;&#10;                                Grid.Row=&quot;0&quot;&#10;                                VerticalOptions=&quot;CenterAndExpand&quot;&#10;                                Text=&quot;{Binding Nome}&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="847:1126" ph="&lt;&lt;ColumnDefinition&#10;                                    Width=&quot;Auto&quot; /&gt; &lt;ColumnDefinition&#10;                                    Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="904:973" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1006:1072" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1155:1327" ph="&lt;&lt;RowDefinition&#10;                                    Height=&quot;Auto&quot; /&gt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1209:1276" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1356:1683" ph="&lt;.../&gt;" />
+            <marker date="1530291616812" expanded="true" signature="1712:1934" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
