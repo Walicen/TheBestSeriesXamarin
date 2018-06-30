@@ -4,7 +4,7 @@ using TheBestSeries.ViewModels.Base;
 
 namespace TheBestSeries.Services.Navigation
 {
-    public interface INavigation
+    public interface INavigationService
     {
         Task InitializeAsync();
         Task NavigateToAsync<TViewModel>() where TViewModel : ViewModelBase;

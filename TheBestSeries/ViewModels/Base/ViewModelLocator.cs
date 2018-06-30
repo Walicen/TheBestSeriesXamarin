@@ -2,6 +2,7 @@
 using Autofac;
 using Refit;
 using TheBestSeries.Services;
+using TheBestSeries.Services.Navigation;
 
 namespace TheBestSeries.ViewModels.Base
 {
@@ -12,7 +13,7 @@ namespace TheBestSeries.ViewModels.Base
 
         static readonly ViewModelLocator _instance = new ViewModelLocator();
 
-        private static ViewModelLocator Instance
+        public static ViewModelLocator Instance
         {
             get
             {
@@ -24,12 +25,12 @@ namespace TheBestSeries.ViewModels.Base
         {
             _containerBuilder = new ContainerBuilder();
 
-            //_containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
+            _containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
             //_containerBuilder.RegisterType<DialogService>().As<IDialogService>();
             //_containerBuilder.RegisterType<ITMDbService>().As<TMDbService>();
 
             _containerBuilder.RegisterType<ListViewModel>();
-            //_containerBuilder.RegisterType<DetailsViewModel>();
+            _containerBuilder.RegisterType<DetailsViewModel>();
 
             //_containerBuilder.Register(api =>
             //{

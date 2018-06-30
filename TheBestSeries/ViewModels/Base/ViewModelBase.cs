@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
+using TheBestSeries.Services.Navigation;
 using Xamarin.Forms;
 
 namespace TheBestSeries.ViewModels.Base
 {
     public abstract class ViewModelBase : BindableObject
     {
-        //protected readonly INavigationService NavigationService;
+        protected readonly INavigationService NavigationService;
         //protected readonly IDialogService DialogService;
 
         string _title;
@@ -26,7 +27,7 @@ namespace TheBestSeries.ViewModels.Base
         public ViewModelBase(string title)
         {
             Title = title;
-            //NavigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
+            NavigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
             //DialogService = ViewModelLocator.Instance.Resolve<IDialogService>();
         }
 

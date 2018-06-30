@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using TheBestSeries.Models;
+
 namespace TheBestSeries.Services
 {
-    public class TMDbService
+    public class TMDbService : ITMDbService
     {
         //readonly IGameDbApi _api;
 
@@ -14,5 +18,9 @@ namespace TheBestSeries.Services
         //{
         //    return _api.GetGamesAsync(AppSettings.ApiKey);
         //}
+        public Task<IEnumerable<Series>> GetSeriesAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

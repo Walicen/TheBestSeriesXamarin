@@ -27,6 +27,7 @@ namespace TheBestSeries.Views
         {
             var filme = (Series)e.Item;
             Navigation.PushAsync(new DetailsView(filme));
+
         }
     }
 }

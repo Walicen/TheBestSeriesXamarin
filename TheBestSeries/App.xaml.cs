@@ -1,4 +1,6 @@
 using System;
+using TheBestSeries.Services.Navigation;
+using TheBestSeries.ViewModels.Base;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,11 +9,24 @@ namespace TheBestSeries
 {
     public partial class App : Application
     {
+        
         public App()
         {
             InitializeComponent();
+            BuildDependencies();
+            InitNavigation();
+            //MainPage = new NavigationPage( new Views.MainPage());
+        }
 
-            MainPage = new NavigationPage( new Views.MainPage());
+        public void BuildDependencies()
+        {
+            ViewModelLocator.Instance.Build();
+        }
+
+        async void InitNavigation()
+        {
+            var navigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
+            await navigationService.InitializeAsync();
         }
 
         protected override void OnStart()
