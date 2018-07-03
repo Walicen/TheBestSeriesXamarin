@@ -2,22 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TheBestSeries.Views.DetailsView"
-             Title="{Binding Filme.Nome}">
+             Title="{Binding Name}">
     <ContentPage.Content>
         <ScrollView>
         
-        <StackLayout Padding="25" BackgroundColor="Black">
+        <StackLayout BackgroundColor="Black">
             
             <Image
-                Grid.Column="0"
-                Grid.Row="0"
-                VerticalOptions="CenterAndExpand"
-                HeightRequest="200"
-                WidthRequest="200"
-                Source="{ Binding Filme.Image}" />
-            
-                <Label Text="{Binding Filme.Sinopse}" TextColor="White"/>
-            
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Aspect="AspectFill"
+                Source="{ Binding Backdrop}" />
+
+                
+            <StackLayout Orientation="Vertical" Padding="12">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding OriginalName}" FontSize="12" FontAttributes="Italic" TextColor="White"/>
+                        
+                    </StackLayout>
+                <Label Text="{Binding Overview}"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
             
         </StackLayout>
             </ScrollView>

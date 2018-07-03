@@ -12,7 +12,7 @@
                   VerticalOptions="FillAndExpand"
                   HorizontalOptions="FillAndExpand"
                   HasUnevenRows="true"
-                  SeparatorColor="Blue"
+                  SeparatorColor="White"
                   CachingStrategy="RecycleElement"
                   ItemsSource="{Binding Items}" 
                   behaviors:AttachedItemTappedBehavior.Command="{Binding ItemClickCommand}">
@@ -26,10 +26,12 @@
                             <Image Source="{Binding Poster}"
                                    VerticalOptions="Start"
                                    HorizontalOptions="Start" 
-                                   HeightRequest="120" />
+                                   HeightRequest="120"
+                                   WidthRequest="80"/>
                             <StackLayout>
                                 <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="{Binding OriginalName}" FontSize="Small" />
+                                <Label Text="{Binding Votes}" FontSize="Small" />
+                                <Label Text="{Binding ReleaseDate}" FontSize="Small" />
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

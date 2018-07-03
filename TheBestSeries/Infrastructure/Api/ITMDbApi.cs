@@ -9,7 +9,7 @@ namespace TheBestSeries.Infrastructure.Api
     [Headers("Content-Type: application/json")]
     public interface ITMDbApi
     {
-        [Get("/tv/popular?api_key={apiKey}")]
+        [Get("/tv/top_rated?api_key={apiKey}&language=pt-BR")]
         Task<SerieResponse> GetSeriesAsync(string apiKey);
     }
 }

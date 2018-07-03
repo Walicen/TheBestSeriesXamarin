@@ -21,6 +21,13 @@ namespace TheBestSeries.ViewModels
             get { return _backdrop; }
             set { _backdrop = value; OnPropertyChanged(); }
         }
+
+        private string _poster;
+        public string Poster
+        {
+            get { return _poster; }
+            set { _poster = value; OnPropertyChanged(); }
+        }
         private double _votes;
         public double Votes
         {
@@ -54,7 +61,8 @@ namespace TheBestSeries.ViewModels
 
             Name = serie.Name;
             Votes = serie.VoteAverage;
-            Backdrop = serie.Poster;
+            Backdrop = serie.Backdrop;
+            Poster = serie.Poster;
             Overview = serie.Overview;
             FirstDate = serie.ReleaseDate;
 

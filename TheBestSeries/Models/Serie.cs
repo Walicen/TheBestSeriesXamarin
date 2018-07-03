@@ -37,9 +37,21 @@ namespace TheBestSeries.Models
         }
 
         [JsonIgnore]
+        public string Backdrop
+        {
+            get { return $"{ApiSettings.ApiImageBaseUrl}{BackdropPath}"; }
+        }
+
+        [JsonIgnore]
         public string ReleaseDate{
             get{
                 return $"{FirstAirDate:dd/MM/yyyy}";
+            }
+        }
+        [JsonIgnore]
+        public string Votes{
+            get{
+                return $"{VoteAverage * 10}% relevante";
             }
         }
     }

@@ -8,6 +8,7 @@
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
     <PackageReference Include="Refit" Version="4.6.16" />
     <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="16.2.0.42" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -16,7 +17,6 @@
     <Folder Include="Services\" />
     <Folder Include="ViewModels\Base\" />
     <Folder Include="Services\Navigation\" />
-    <Folder Include="Services\Dialog\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Api\" />
     <Folder Include="Infrastructure\HttpTools\" />
@@ -25,5 +25,6 @@
   <ItemGroup>
     <Compile Remove="Views\DetaisView.cs" />
     <Compile Remove="Models\Series.cs" />
+    <Compile Remove="Services\Dialog\DialogService.cs" />
   </ItemGroup>
 </Project>
