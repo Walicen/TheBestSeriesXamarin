@@ -15,6 +15,7 @@ namespace TheBestSeries
             InitializeComponent();
             BuildDependencies();
             InitNavigation();
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzgxMUAzMTM2MmUzMjJlMzBIcnNlWEFSK3JJb3l3dXQwYnA2Nkc1ckxJbVlxTUFmWnpwNXJzK2YxdEhBPQ==");
             //MainPage = new NavigationPage( new Views.MainPage());
         }
 

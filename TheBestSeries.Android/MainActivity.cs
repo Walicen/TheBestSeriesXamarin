@@ -21,6 +21,7 @@ namespace TheBestSeries.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzgxMUAzMTM2MmUzMjJlMzBIcnNlWEFSK3JJb3l3dXQwYnA2Nkc1ckxJbVlxTUFmWnpwNXJzK2YxdEhBPQ==");
         }
     }
 }

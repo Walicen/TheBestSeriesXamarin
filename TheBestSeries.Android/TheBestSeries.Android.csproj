@@ -57,6 +57,9 @@
     <PackageReference Include="Autofac">
       <Version>4.8.1</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfRating.Android">
+      <Version>16.2.0.42</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

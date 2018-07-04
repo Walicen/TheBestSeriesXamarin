@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
         
-        <StackLayout BackgroundColor="Black">
+        <StackLayout BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             
             <Image
                 VerticalOptions="FillAndExpand"
@@ -15,14 +15,16 @@
                 Source="{ Binding Backdrop}" />
 
                 
-            <StackLayout Orientation="Vertical" Padding="12">
-                    <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Vertical" Padding="12,0,12,0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                         <Label Text="{Binding OriginalName}" FontSize="12" FontAttributes="Italic" TextColor="White"/>
-                        
+                        <Label Text="{Binding FirstDate}" FontSize="12" TextColor="Green" FontAttributes="Bold"/>
+                        <Label Text="{Binding Votes}" FontSize="12" TextColor="Green" FontAttributes="Bold"/>
                     </StackLayout>
                 <Label Text="{Binding Overview}"
                        TextColor="White"
-                       HorizontalTextAlignment="Center"
+                       HorizontalTextAlignment="Start"
+                       FontSize="8"
                        VerticalOptions="Center"
                        HorizontalOptions="Center"/>
             </StackLayout>

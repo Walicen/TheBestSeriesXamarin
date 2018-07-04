@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:TheBestSeries"
              xmlns:behaviors="clr-namespace:TheBestSeries.Behaviors;assembly=TheBestSeries"
              x:Class="TheBestSeries.Views.MainPage"
+             xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
              Title="The Best Series">
     
     
@@ -28,9 +29,21 @@
                                    HorizontalOptions="Start" 
                                    HeightRequest="120"
                                    WidthRequest="80"/>
-                            <StackLayout>
+                            <StackLayout VerticalOptions="FillAndExpand"
+                            HorizontalOptions="FillAndExpand">
                                 <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="{Binding Votes}" FontSize="Small" />
+                                <rating:SfRating x:Name="rating" 
+                                                 ItemCount="5"
+                                                 ItemSize="12"
+                                                 Value="{Binding Votes}"
+                                                 Precision="Exact"
+                                                 ReadOnly="true" >
+                                    <rating:SfRating.RatingSettings>
+                                        <rating:SfRatingSettings RatedFill="Yellow"
+                                                                 UnRatedFill="Gray"
+                                                                 RatedStroke="Black"/>
+                                    </rating:SfRating.RatingSettings>
+                                </rating:SfRating>
                                 <Label Text="{Binding ReleaseDate}" FontSize="Small" />
                             </StackLayout>
                         </StackLayout>

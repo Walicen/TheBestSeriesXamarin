@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfRating.XForms.iOS;
 using UIKit;
 
 namespace TheBestSeries.iOS
@@ -24,6 +25,8 @@ namespace TheBestSeries.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+            new SfRatingRenderer();
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzgxMUAzMTM2MmUzMjJlMzBIcnNlWEFSK3JJb3l3dXQwYnA2Nkc1ckxJbVlxTUFmWnpwNXJzK2YxdEhBPQ==");
 
             return base.FinishedLaunching(app, options);
         }

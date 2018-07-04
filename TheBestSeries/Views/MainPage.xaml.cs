@@ -20,6 +20,7 @@ namespace TheBestSeries.Views
             InitializeComponent();
 
             //listViewSeries.BindingContext = this;
+
         }
 
 

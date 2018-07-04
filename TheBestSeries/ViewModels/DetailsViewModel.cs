@@ -15,6 +15,14 @@ namespace TheBestSeries.ViewModels
             set { _name = value; OnPropertyChanged(); }
         }
 
+        private string _originalName;
+        public string OriginalName
+        {
+            get { return _originalName; }
+            set { _originalName = value; OnPropertyChanged(); }
+        }
+
+
         private string _backdrop;
         public string Backdrop
         {
@@ -28,8 +36,8 @@ namespace TheBestSeries.ViewModels
             get { return _poster; }
             set { _poster = value; OnPropertyChanged(); }
         }
-        private double _votes;
-        public double Votes
+        private string _votes;
+        public string Votes
         {
             get { return _votes; }
             set { _votes = value; OnPropertyChanged(); }
@@ -60,11 +68,12 @@ namespace TheBestSeries.ViewModels
             var serie = (parameter as Serie);
 
             Name = serie.Name;
-            Votes = serie.VoteAverage;
+            Votes = serie.Popularity;
             Backdrop = serie.Backdrop;
             Poster = serie.Poster;
             Overview = serie.Overview;
-            FirstDate = serie.ReleaseDate;
+            FirstDate = serie.FirstDate;
+            OriginalName = serie.OriginalName;
 
 
             await base.InitializeAsync(parameter);

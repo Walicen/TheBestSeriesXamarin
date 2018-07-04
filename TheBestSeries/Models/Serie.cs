@@ -49,9 +49,25 @@ namespace TheBestSeries.Models
             }
         }
         [JsonIgnore]
+        public string FirstDate
+        {
+            get
+            {
+                return $"Primeira exibição: {FirstAirDate:dd/MM/yyyy}";
+            }
+        }
+        [JsonIgnore]
         public string Votes{
             get{
-                return $"{VoteAverage * 10}% relevante";
+                return $"{VoteAverage / 2}";
+            }
+        }
+        [JsonIgnore]
+        public string Popularity
+        {
+            get
+            {
+                return $"Popularidade: {VoteAverage * 10}%";
             }
         }
     }
