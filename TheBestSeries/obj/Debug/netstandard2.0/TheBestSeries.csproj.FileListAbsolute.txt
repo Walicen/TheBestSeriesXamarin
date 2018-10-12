@@ -1,0 +1,9 @@
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/bin/Debug/netstandard2.0/TheBestSeries.deps.json
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/bin/Debug/netstandard2.0/TheBestSeries.dll
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/bin/Debug/netstandard2.0/TheBestSeries.pdb
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.csproj.CoreCompileInputs.cache
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.AssemblyInfoInputs.cache
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.AssemblyInfo.cs
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.dll
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.pdb
+/Users/walicendalazuana/Projects/TheBestSeries/TheBestSeries/obj/Debug/netstandard2.0/TheBestSeries.csprojResolveAssemblyReference.cache
